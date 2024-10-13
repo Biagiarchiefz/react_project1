@@ -28,7 +28,7 @@ const FooterLink = [
 
 const Footer = () => {
   return (
-    <div className="text-white bg-gray-800">
+    <div className="text-white bg-gray-800 dark:bg-gradient-to-b from-gray-800 to-black">
       <div
       data-aos ="zoom-in"
       className="container">
