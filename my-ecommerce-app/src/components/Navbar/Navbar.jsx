@@ -57,7 +57,7 @@ const Navbar = () => {
   return (
     <div className="shadow-md bg-white dark:bg-gray-900 dark:text-white duration-200 relative z-40">
       {/* upper Navbar */}
-      <div className="bg-primary/40 py-1">
+      <div className="bg-gradient-to-r from-secondary to-primary/40 py-1">
         <div className="container flex justify-between items-center ">
           <div className="">
             <a href="" className="font-bold text-2xl sm:text-3xl flex gap-2">
