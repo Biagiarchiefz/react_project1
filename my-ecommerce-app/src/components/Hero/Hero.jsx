@@ -50,7 +50,7 @@ const Hero = () => {
       <div className="h-[700px] w-[700px] bg-gradient-to-b from-secondary to-primary/40  absolute right-0 -top-1/2 rounded-3xl rotate-45 -z-9"></div>
 
       {/* hero section */}
-      <div className="container pb-8 sm:pb-0">
+      <div className="container pb-8 sm:pb">
         <Slider {...settings}>
 
           {ImageList.map((data) => (
